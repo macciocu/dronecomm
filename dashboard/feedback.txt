@@ -1,0 +1,22 @@
+1) What steps did you take to figure out what you were going to focus on for 
+the assignment?
+
+First I've focussed on which communication protocol would be best to use given
+the requirements (e.g. REST vs Websocket), and then I've looked which available
+frameworks there where available in order speedup development. This made me
+opt for the socket.io framework. After that I've prepared the environment
+at which the various services (i.e. frontend dashboard app, backend server app
+and drone simulation app) would run by using tools I'm familiar with and I 
+think fit the balena.io technology stack (nginx, Docker, node, react).
+
+3) About how long did you spend on it?
+
+Around 4h coding and 1h of research. I spend slightly longer than set out 
+originally for the assignent, however I found it quite interesting to dive and 
+learn more about the socket.io framework as I haven't used it before.
+
+4) If you had more time, what would you do?
+
+- Add more unit-tests as the current code only contains a minimal nr. of tests.
+- Add more comments / documentation to the dronecomm server application.
+- Add SSL and perform e2e testing on a live webserver.

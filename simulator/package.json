@@ -1,0 +1,24 @@
+{
+  "name": "simulator",
+  "version": "1.0.0",
+  "private": true,
+  "main": "app.js",
+  "license": "SEE LICENSE IN ../LICENSE.txt",
+  "author": {
+    "name": "Giovanni Macciocu",
+    "email": "mcc.giovanni@gmail.com",
+    "url": "https://macciocu.net"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "lint": "eslint src/*.js",
+    "format": "prettier --config ./.prettierc.json --write \"{src,__{tests,mocks}__}/**/*.js\""
+  },
+  "dependencies": {
+    "socket.io": "^2.3.0",
+    "uniqid": "^5.1.0"
+  }
+}

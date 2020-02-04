@@ -1,0 +1,26 @@
+{
+  "name": "dronecomm",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "SEE LICENSE IN ../LICENSE.txt",
+  "author": {
+    "name": "Giovanni Macciocu",
+    "email": "mcc.giovanni@gmail.com",
+    "url": "https://macciocu.net"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/*.js",
+    "format": "prettier --config ./.prettierc.json --write \"{src,__{tests,mocks}__}/**/*.js\""
+  }
+}
